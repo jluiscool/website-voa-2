@@ -1,10 +1,12 @@
-import { Routes, Route } from 'react-router-dom';
 import './App.css';
-import HomePage from './pages/HomePage';
-import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import ModalMenu from './components/ModalMenu';
+import HomePage from './pages/HomePage';
+import ServicesPage from './pages/ServicesPage'
+
+import { Routes, Route } from 'react-router-dom';
+import { useState } from 'react';
 
 function App() {
 
@@ -21,6 +23,7 @@ function App() {
       {showModal ? <ModalMenu toggleModal={toggleModal}/> : false}
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/services" element={<ServicesPage />}/>
       </Routes>
       <Footer />
     </div>
