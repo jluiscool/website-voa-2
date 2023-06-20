@@ -1,5 +1,6 @@
 // import { ReactComponent as CloseIcon } from '../assets/images/close-svgrepo-com.svg';
 import ReactDom from 'react-dom';
+import { Link } from 'react-router-dom';
 
 function ModalMenu({ toggleModal }) {
     return ReactDom.createPortal(
@@ -19,12 +20,24 @@ function ModalMenu({ toggleModal }) {
                 </svg>
                 <nav className='text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
                     <ul className='flex flex-col gap-y-[1.5rem]'>
-                        <li>HOME</li>
-                        <li>SERVICES</li>
-                        <li>STUDIOS</li>
-                        <li>THE TEAM</li>
-                        <li>CLIENTS</li>
-                        <li>CONTACT US</li>
+                        <Link to="/" onClick={toggleModal}>
+                            <li>HOME</li>
+                        </Link>
+                        <Link to="/services" onClick={toggleModal}>
+                            <li>SERVICES</li>
+                        </Link>
+                        <Link>
+                            <li>STUDIOS</li>
+                        </Link>
+                        <Link>
+                            <li>THE TEAM</li>
+                        </Link>
+                        <Link>
+                            <li>CLIENTS</li>
+                        </Link>
+                        <Link>
+                            <li>CONTACT US</li>
+                        </Link>
                     </ul>
                 </nav>
             </div>
