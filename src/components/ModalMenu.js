@@ -24,10 +24,10 @@ function ModalMenu({ toggleModal }) {
                         <Link to="/studios" onClick={toggleModal}>
                             <li className='hover:text-light-blue'>STUDIOS</li>
                         </Link>
-                        <Link>
+                        <Link to="/the-team" onClick={toggleModal}>
                             <li className='hover:text-light-blue'>THE TEAM</li>
                         </Link>
-                        <Link>
+                        <Link to="/clients" onClick={toggleModal}>
                             <li className='hover:text-light-blue'>CLIENTS</li>
                         </Link>
                         <Link>

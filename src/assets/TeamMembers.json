@@ -8,7 +8,8 @@
         "twitter": "",
         "facebook": "",
         "linkedin": "",
-        "picture": "/andres-chibi.jpg"
+        "picture": "/andres-chibi.jpg",
+        "photo": "/andres-pic.webp"
     },
     {
         "name": "CINDY E. PEREZ",
@@ -19,7 +20,8 @@
         "twitter": "",
         "facebook": "",
         "linkedin": "",
-        "picture": "/cindy-chibi.png"
+        "picture": "/cindy-chibi.png",
+        "photo": "/cindy-pic.webp"
     },
     {
         "name": "SAMANTHA MARRERO",
@@ -30,7 +32,8 @@
         "twitter": "",
         "facebook": "",
         "linkedin": "",
-        "picture": "/samantha-chibi.png"
+        "picture": "/samantha-chibi.png",
+        "photo": "/samantha-pic.webp"
     },
     {
         "name": "NICO CHANG",
@@ -41,6 +44,7 @@
         "twitter": "",
         "facebook": "",
         "linkedin": "",
-        "picture": "/nico-chibi.jpg"
+        "picture": "/nico-chibi.jpg",
+        "photo": "/nico-pic.webp"
     }
 ]
