@@ -1,5 +1,4 @@
 import GoogleMapsFrame from '../GoogleMapsFrame/GoogleMapsFrame';
-import './LocationSection.scss';
 
 function LocationSection() {
     return (

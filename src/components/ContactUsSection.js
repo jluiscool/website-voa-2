@@ -1,5 +1,4 @@
 import ContactForm from '../ContactForm/ContactForm';
-import './ContactUsSection.scss'
 
 function ContactUsSection() {
     return (

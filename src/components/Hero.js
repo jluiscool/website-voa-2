@@ -12,7 +12,7 @@ function Hero() {
     ]
 
     return (
-        <section class="max-w-lg">
+        <section className="max-w-lg">
             <Carousel autoSlide={true}>
                 {
                     slides.map((slide, index) => {

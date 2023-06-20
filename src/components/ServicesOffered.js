@@ -1,69 +1,68 @@
-import './ServicesOffered.scss';
-import TranslationService from '../../assets/images/translation-service-2.svg';
-import DubbingService from '../../assets/images/dubbing-service-3.svg';
-import VoiceOverService from '../../assets/images/voice-over-service.png';
-import RecordingService from '../../assets/images/recording-service.png';
-import MixingService from '../../assets/images/mixing-service.png';
-import MasteringService from '../../assets/images/mastering-service.png';
-import SoundDesignService from '../../assets/images/sound-design-service.svg';
-import MusicService from '../../assets/images/music-service.png';
-import VideoPostService from '../../assets/images/video-post-service.svg';
+import TranslationService from '../assets/images/translation-service-2.svg';
+import DubbingService from '../assets/images/dubbing-service-3.svg';
+import VoiceOverService from '../assets/images/voice-over-service.png';
+import RecordingService from '../assets/images/recording-service.png';
+import MixingService from '../assets/images/mixing-service.png';
+import MasteringService from '../assets/images/mastering-service.png';
+import SoundDesignService from '../assets/images/sound-design-service.svg';
+import MusicService from '../assets/images/music-service.png';
+import VideoPostService from '../assets/images/video-post-service.svg';
 
 function ServicesOffered() {
     return (
-        <div className='services-offered'>
-            <div className='services-offered__service'>
-                <img src={TranslationService} className='services-offered__img' alt="Translation Service"/>
-                <button className='services-offered__button translation-service'>
-                    <p className="services-offered__button-text">TRANSLATION</p>
+        <div className='bg-hot-pink w-[100%] flex flex-wrap justify-around p-[24px] gap-x-[16px] gap-y-[4.5vw]'>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem] '>
+                <img src={TranslationService} className='h-[5vw]' alt="Translation Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] translation-service'>
+                    <p className="text-[8px]">TRANSLATION</p>
                 </button>
             </div>
-            <div className='services-offered__service dubbing-service'>
-                <img src={DubbingService} className='services-offered__img' alt="Dubbing Service"/>
-                <button className='services-offered__button dubbing-service'>
-                    <p className="services-offered__button-text">DUBBING</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  dubbing-service'>
+                <img src={DubbingService} className='h-[5vw]' alt="Dubbing Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] dubbing-service'>
+                    <p className="text-[8px]">DUBBING</p>
                 </button>
             </div>
-            <div className='services-offered__service voice-over-service'>
-                <img src={VoiceOverService} className='services-offered__img' alt="Voice Over Service"/>
-                <button className='services-offered__button voice-over-service'>
-                <p className="services-offered__button-text">VOICE OVER</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  voice-over-service'>
+                <img src={VoiceOverService} className='h-[5vw]' alt="Voice Over Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] voice-over-service'>
+                <p className="text-[8px]">VOICE OVER</p>
                 </button>
             </div>
-            <div className='services-offered__service recording-service'>
-                <img src={RecordingService} className='services-offered__img' alt="Recording Service" />
-                <button className='services-offered__button recording-service'>
-                <p className="services-offered__button-text">RECORDING</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  recording-service'>
+                <img src={RecordingService} className='h-[5vw]' alt="Recording Service" />
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] recording-service'>
+                <p className="text-[8px]">RECORDING</p>
                 </button>
             </div>
-            <div className='services-offered__service mixing-service'>
-                <img src={MixingService} className='services-offered__img' alt="Mixing Service"/>
-                <button className='services-offered__button mixing-service'>
-                <p className="services-offered__button-text">MIXING</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  mixing-service'>
+                <img src={MixingService} className='h-[5vw]' alt="Mixing Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] mixing-service'>
+                <p className="text-[8px]">MIXING</p>
                 </button>
             </div>
-            <div className='services-offered__service mastering-service'>
-                <img src={MasteringService} className='services-offered__img' alt="Mastering Service"/>
-                <button className='services-offered__button mastering-service'>
-                <p className="services-offered__button-text">MASTERING</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  mastering-service'>
+                <img src={MasteringService} className='h-[5vw]' alt="Mastering Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] mastering-service'>
+                <p className="text-[8px]">MASTERING</p>
                 </button>
             </div>
-            <div className='services-offered__service sound-design-service'>
-                <img src={SoundDesignService} className='services-offered__img' alt="Sound Design Service" />
-                <button className='services-offered__button sound-design-service'>
-                <p className="services-offered__button-text">SOUND DESIGN</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  sound-design-service'>
+                <img src={SoundDesignService} className='h-[5vw]' alt="Sound Design Service" />
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] sound-design-service'>
+                <p className="text-[8px]">SOUND DESIGN</p>
                 </button>
             </div>
-            <div className='services-offered__service music-service'>
-                <img src={MusicService} className='services-offered__img' alt="Music Service" />
-                <button className='services-offered__button music-service'>
-                <p className="services-offered__button-text">MUSIC</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  music-service'>
+                <img src={MusicService} className='h-[5vw]' alt="Music Service" />
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] music-service'>
+                <p className="text-[8px]">MUSIC</p>
                 </button>
             </div>
-            <div className='services-offered__service video-post-service'>
-                <img src={VideoPostService} className='services-offered__img' alt="Video Post Production Service"/>
-                <button className='services-offered__button video-post-service'>
-                <p className="services-offered__button-text">VIDEO POST</p>
+            <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  video-post-service'>
+                <img src={VideoPostService} className='h-[5vw]' alt="Video Post Production Service"/>
+                <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] video-post-service'>
+                <p className="text-[8px]">VIDEO POST</p>
                 </button>
             </div>
         </div>
