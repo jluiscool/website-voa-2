@@ -6,7 +6,7 @@ function LocationSection() {
             <div className='flex flex-col justify-center items-start gap-x-[1rem] mb-[1rem] '>
                 <div className='w-[100%] justify-center text-center text-[1.25rem] pb-[1rem]'>
                     <div>
-                        <a href='https://www.google.com/maps?output=search&q=voa+miami+maps&entry=mc&sa=X&ved=2ahUKEwjIuazeptH_AhXlk4kEHRXsBecQ0pQJegQIBhAB' target="_blank">
+                        <a href='https://www.google.com/maps?output=search&q=voa+miami+maps&entry=mc&sa=X&ved=2ahUKEwjIuazeptH_AhXlk4kEHRXsBecQ0pQJegQIBhAB' target="_blank" rel="noopener noreferrer" >
                             <address className='text-center text-[1.5rem] font-[700]'>1150 SW 22nd St. Miami, FL 33129</address>
                         </a>
                     </div>

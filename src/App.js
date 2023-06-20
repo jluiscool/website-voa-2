@@ -4,20 +4,21 @@ import HomePage from './pages/HomePage';
 import { useState } from 'react';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import ModalMenu from './components/ModalMenu';
 
 function App() {
 
-  const [currentPage, setCurrentPage] = useState('home')
+  const [showModal, setShowModal] = useState(false);
 
-  //handle Page Change
-  const handlePageChange = (url) => {
-    window.history.pushState({}, url, url)
-    setCurrentPage(url)
+
+  const toggleModal = () => {
+    setShowModal(prev => !prev)
   }
-
+  
   return (
-    <div className="App">
-      <Header />
+    <div className="relative">
+      <Header toggleModal={toggleModal}/>
+      {showModal ? <ModalMenu toggleModal={toggleModal}/> : false}
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
