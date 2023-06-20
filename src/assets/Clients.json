@@ -1,0 +1,58 @@
+[
+    {
+        "name": "iyuno",
+        "photo": "/clients/iyuno.webp"
+    },
+    {
+        "name": "jetpack",
+        "photo": "/clients/jetpack.webp"
+    },
+    {
+        "name": "eh",
+        "photo": "/clients/eh.webp"
+    },
+    {
+        "name": "paramount",
+        "photo": "/clients/paramount.webp"
+    },
+    {
+        "name": "netflix",
+        "photo": "/clients/netflix.webp"
+    },
+    {
+        "name": "cartoon-network",
+        "photo": "/clients/cartoonnetwork.webp"
+    },
+    {
+        "name": "hulu",
+        "photo": "/clients/hulu.webp"
+    },
+    {
+        "name": "primevideo",
+        "photo": "/clients/primevideo.webp"
+    },
+    {
+        "name": "hbomax",
+        "photo": "/clients/hbomax.webp"
+    },
+    {
+        "name": "disneyplus",
+        "photo": "/clients/disneyplus.webp"
+    },
+    {
+        "name": "youtube",
+        "photo": "/clients/youtube.webp"
+    },
+    {
+        "name": "universal",
+        "photo": "/clients/universal.webp"
+    },
+    {
+        "name": "audible",
+        "photo": "/clients/audible.webp"
+    },
+    {
+        "name": "brilliancepublishing",
+        "photo": "/clients/brilliancepublishing.webp"
+    }
+]
