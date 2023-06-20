@@ -1,21 +1,20 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-import './ContactForm.scss'
 function ContactForm() {
     const [state, handleSubmit] = useForm("mayzrpjk");
     if (state.succeeded) {
         return <p>Thanks for your submission! We'll get back to you shortly.</p>;
     }
     return (
-        <form onSubmit={handleSubmit} className='contact-form'>
-            <div className='contact-form__field'>
+        <form onSubmit={handleSubmit} className='w-[100%] flex flex-col items-start justify-start mt-[1.5rem] gap-y-[0.75rem]'>
+            <div className='w-[100%]'>
                 <input
                     id="email"
                     type="email"
                     name="email"
                     placeholder="email"
-                    className='contact-form__input'
+                    className='w-[100%] border-black border-[1px] px-[0.75rem] rounded-[3px] hover:border-hot-pink hover:bg-light-blue focus:outline-hot-pink'
                     required
                 />
                 <ValidationError
@@ -24,12 +23,13 @@ function ContactForm() {
                     errors={state.errors}
                 />
             </div>
-            <div className='contact-form__field'>
-                <textarea
+            <div className='w-[100%]'>
+                <input
+                    type='text'
                     id="name"
                     name="name"
                     placeholder='name'
-                    className='contact-form__input'
+                    className='w-[100%] border-black border-[1px] px-[0.75rem] rounded-[3px] hover:border-hot-pink hover:bg-light-blue focus:outline-hot-pink'
                     required
                 />
                 <ValidationError
@@ -38,13 +38,13 @@ function ContactForm() {
                     errors={state.errors}
                 />
             </div>
-            <div className='contact-form__field'>
+            <div className='w-[100%]'>
                 <input
                     type="text"
                     id="phone"
                     name="phone"
                     placeholder='phone number'
-                    className='contact-form__input'
+                    className='w-[100%] border-black border-[1px] px-[0.75rem] rounded-[3px] hover:border-hot-pink hover:bg-light-blue focus:outline-hot-pink'
                     required
                 />
                 <ValidationError
@@ -53,13 +53,13 @@ function ContactForm() {
                     errors={state.errors}
                 />
             </div>
-            <div className='contact-form__field'>
+            <div className='w-[100%]'>
                 <textarea
                     rows="5"
                     id="message"
                     name="message"
                     placeholder="type your message here"
-                    className='contact-form__input'
+                    className='w-[100%] border-black border-[1px] px-[0.75rem] rounded-[3px] hover:border-hot-pink hover:bg-light-blue focus:outline-hot-pink'
                     required
                 />
                 <ValidationError
@@ -71,7 +71,7 @@ function ContactForm() {
             <button
                 type="submit"
                 disabled={state.submitting}
-                className='contact-form__button'
+                className='ml-auto bg-dark-gray text-white px-[1.5rem] rounded-[12px]'
             >
                 Submit
             </button>

@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from './pages/HomePage';
 import { useState } from 'react';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
 
@@ -20,6 +21,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

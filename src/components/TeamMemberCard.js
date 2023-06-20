@@ -6,7 +6,7 @@ function TeamMemberCard({ name, email, phone, title, twitter, linkedin, facebook
 
     return (
         <div className="bg-dark-gray/[0.8] pb-[0.75rem] w-[100%] flex flex-col mb-[1rem] rounded-[3px]">
-            <img src={picture} className='rounded-full mx-auto my-[0.75rem] w-[75%]' alt={name} />
+            <img src={picture} className='rounded-full mx-auto my-[0.75rem] w-[60%]' alt={name} />
             <div className='flex flex-wrap gap-y-[0.5rem] text-white justify-between px-[0.75rem] text-[0.75rem]'>
                 <div className='flex justify-between w-[100%]'>
                     <h3 className='team-member-card__title'>{title}</h3>

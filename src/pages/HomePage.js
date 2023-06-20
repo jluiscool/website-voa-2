@@ -4,6 +4,8 @@ import AboutUs from '../components/AboutUs'
 import ServicesOffered from '../components/ServicesOffered'
 import StudioRentals from '../components/StudioRentals'
 import MeetTheTeam from '../components/MeetTheTeam'
+import ContactUsSection from "../components/ContactUsSection";
+import LocationSection from '../components/LocationSection'
 
 function HomePage() {
 
@@ -15,7 +17,8 @@ function HomePage() {
             <ServicesOffered />
             <StudioRentals />
             <MeetTheTeam />
-            
+            <ContactUsSection />
+            <LocationSection />
         </main>
     )
 }
