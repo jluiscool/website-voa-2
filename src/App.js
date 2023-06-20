@@ -7,6 +7,7 @@ import ServicesPage from './pages/ServicesPage'
 
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
+import StudiosPage from './pages/StudiosPage'
 
 function App() {
 
@@ -24,6 +25,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />}/>
+        <Route path="/studios" element={<StudiosPage />}/>
       </Routes>
       <Footer />
     </div>

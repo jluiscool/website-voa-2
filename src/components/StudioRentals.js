@@ -1,8 +1,8 @@
 
 
-function StudioRentals() {
+function StudioRentals({ newHeight }) {
     return (
-        <div className='bg-[url("./assets/images/microphone-studio-rentals.jpg")] bg-cover bg-no-repeat w-[100%] flex flex-col items-center p-[1.5rem]'>
+        <div className={`bg-[url("./assets/images/microphone-studio-rentals.jpg")] bg-cover bg-no-repeat w-[100%] flex flex-col items-center p-[1.5rem] ${newHeight ? `h-[${newHeight}vh] justify-center` : ""}`}>
             <h2 className='text-light-blue mb-[1rem] font-[700] text-[2rem] bg-black/[0.5] rounded-[12px] px-[0.5rem]'>
                 RENTALS
             </h2>
