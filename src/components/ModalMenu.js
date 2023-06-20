@@ -14,7 +14,7 @@ function ModalMenu({ toggleModal }) {
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg">
                     <g id="Menu / Close_SM">
-                        <path id="Vector" d="M16 16L12 12M12 12L8 8M12 12L16 8M12 12L8 16" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        <path id="Vector" d="M16 16L12 12M12 12L8 8M12 12L16 8M12 12L8 16" stroke="#FFFFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                     </g>
                 </svg>
                 <nav className='text-white absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]'>
