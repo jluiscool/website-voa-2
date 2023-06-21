@@ -3,6 +3,13 @@ module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     extend: {
+      screens: {
+        'tablet': '768px',
+        // => @media (min-width: 768px) { ... }
+
+        'desktop': '1280px',
+        // => @media (min-width: 1280px) { ... }
+      },
       colors: {
         'hot-pink': '#FE0095',
         'light-pink': '#FF55BC',
