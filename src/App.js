@@ -3,13 +3,14 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import ModalMenu from './components/ModalMenu';
 import HomePage from './pages/HomePage';
-import ServicesPage from './pages/ServicesPage'
+import ServicesPage from './pages/ServicesPage';
 
 import { Routes, Route } from 'react-router-dom';
 import { useState } from 'react';
-import StudiosPage from './pages/StudiosPage'
-import TheTeamPage from './pages/TheTeamPage'
+import StudiosPage from './pages/StudiosPage';
+import TheTeamPage from './pages/TheTeamPage';
 import ClientsPage from './pages/ClientsPage';
+import ContactUsPage from './pages/ContactUsPage';
 
 function App() {
 
@@ -17,7 +18,7 @@ function App() {
 
 
   const toggleModal = () => {
-    setShowModal(prev => !prev)
+    setShowModal(prev => !prev);
   }
   
   return (
@@ -30,6 +31,8 @@ function App() {
         <Route path="/studios" element={<StudiosPage />}/>
         <Route path="/the-team" element={<TheTeamPage />}/>
         <Route path="/clients" element={<ClientsPage />}/>
+        <Route path="/clients" element={<ClientsPage />}/>
+        <Route path="/contact-us" element={<ContactUsPage />}/>
       </Routes>
       <Footer />
     </div>

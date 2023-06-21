@@ -12,57 +12,57 @@ function ServicesOffered() {
     return (
         <div className='bg-hot-pink w-[100%] flex flex-wrap justify-around p-[24px] gap-x-[16px] gap-y-[4.5vw]'>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem] '>
-                <img src={TranslationService} className='h-[5vw]' alt="Translation Service"/>
+                <img src={TranslationService} className='h-[5vw]' alt="Translation Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] translation-service'>
                     <p className="text-[8px]">TRANSLATION</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  dubbing-service'>
-                <img src={DubbingService} className='h-[5vw]' alt="Dubbing Service"/>
+                <img src={DubbingService} className='h-[5vw]' alt="Dubbing Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] dubbing-service'>
                     <p className="text-[8px]">DUBBING</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  voice-over-service'>
-                <img src={VoiceOverService} className='h-[5vw]' alt="Voice Over Service"/>
+                <img src={VoiceOverService} className='h-[5vw]' alt="Voice Over Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] voice-over-service'>
-                <p className="text-[8px]">VOICE OVER</p>
+                    <p className="text-[8px]">VOICE OVER</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  recording-service'>
                 <img src={RecordingService} className='h-[5vw]' alt="Recording Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] recording-service'>
-                <p className="text-[8px]">RECORDING</p>
+                    <p className="text-[8px]">RECORDING</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  mixing-service'>
-                <img src={MixingService} className='h-[5vw]' alt="Mixing Service"/>
+                <img src={MixingService} className='h-[5vw]' alt="Mixing Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] mixing-service'>
-                <p className="text-[8px]">MIXING</p>
+                    <p className="text-[8px]">MIXING</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  mastering-service'>
-                <img src={MasteringService} className='h-[5vw]' alt="Mastering Service"/>
+                <img src={MasteringService} className='h-[5vw]' alt="Mastering Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] mastering-service'>
-                <p className="text-[8px]">MASTERING</p>
+                    <p className="text-[8px]">MASTERING</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  sound-design-service'>
                 <img src={SoundDesignService} className='h-[5vw]' alt="Sound Design Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] sound-design-service'>
-                <p className="text-[8px]">SOUND DESIGN</p>
+                    <p className="text-[8px]">SOUND DESIGN</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  music-service'>
                 <img src={MusicService} className='h-[5vw]' alt="Music Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] music-service'>
-                <p className="text-[8px]">MUSIC</p>
+                    <p className="text-[8px]">MUSIC</p>
                 </button>
             </div>
             <div className='w-[29%] h-[3rem] flex flex-col items-center justify-between gap-y-[0.5rem]  video-post-service'>
-                <img src={VideoPostService} className='h-[5vw]' alt="Video Post Production Service"/>
+                <img src={VideoPostService} className='h-[5vw]' alt="Video Post Production Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] video-post-service'>
-                <p className="text-[8px]">VIDEO POST</p>
+                    <p className="text-[8px]">VIDEO POST</p>
                 </button>
             </div>
         </div>

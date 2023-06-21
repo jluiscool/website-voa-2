@@ -9,15 +9,15 @@ function Services() {
             <div className='flex justify-between items-start px-[1.5rem] pb-[.5rem] w-[100%] border-b-white border-b-[3px] border-solid'>
                 <div className='w-[30%] flex flex-col justify-start items-center'>
                     <img src={DubNTrans} className='w-[66%] h-[auto] mb-[1rem]' alt="Dubbing & Translation" />
-                    <h2 className='text-center text-hot-pink'>Dubbing & Translation</h2>
+                    <h3 className='text-center text-hot-pink'>Dubbing & Translation</h3>
                 </div>
                 <div className='w-[30%] flex flex-col justify-start items-center'>
                     <img src={Rec} className='w-[66%] h-[auto] mb-[1rem]' alt="Recording" />
-                    <h2 className='text-center text-hot-pink'>Recording</h2>
+                    <h3 className='text-center text-hot-pink'>Recording</h3>
                 </div>
                 <div className='w-[30%] flex flex-col justify-start items-center'>
                     <img src={SDNMix} className='w-[66%] h-[auto] mb-[1rem]' alt="sound design and mixing" />
-                    <h2 className='text-center text-hot-pink'>Sound Design & Mixing</h2>
+                    <h3 className='text-center text-hot-pink'>Sound Design & Mixing</h3>
                 </div>
             </div>
             <div className='flex px-[0.75rem] justify-around relative top-[-10px]'>

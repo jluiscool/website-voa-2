@@ -7,7 +7,7 @@ function ContactForm() {
         return <p>Thanks for your submission! We'll get back to you shortly.</p>;
     }
     return (
-        <form onSubmit={handleSubmit} className='w-[100%] flex flex-col items-start justify-start mt-[1.5rem] gap-y-[0.75rem]'>
+        <form onSubmit={handleSubmit} className='w-[100%] flex flex-col items-start justify-start gap-y-[0.75rem]'>
             <div className='w-[100%]'>
                 <input
                     id="email"
@@ -71,7 +71,7 @@ function ContactForm() {
             <button
                 type="submit"
                 disabled={state.submitting}
-                className='ml-auto bg-dark-gray text-white px-[1.5rem] rounded-[12px]'
+                className='ml-auto bg-dark-gray text-white px-[1.5rem] rounded-[12px] hover:text-light-blue'
             >
                 Submit
             </button>
