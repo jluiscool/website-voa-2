@@ -3,9 +3,9 @@ function VOSection() {
         <section className="bg-black">
             <div className='bg-[url("./assets/images/vo-section-bg.webp")] p-[1.5rem]'>
                 <div className="text-center relative">
-                    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50 z-0"></div>
-                    <h1 className="text-white relative z-10 pb-[1rem]">DUBBING & VOICE OVER</h1>
-                    <h2 className="text-light-blue relative z-10">
+                    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+                    <h1 className="text-white relative pb-[1rem]">DUBBING & VOICE OVER</h1>
+                    <h2 className="text-light-blue relative">
                         Animated series, short films, audiobooks, feature films, live-action content, podcast, video games, educational videos, commercials...
                     </h2>
                 </div>

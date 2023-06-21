@@ -24,7 +24,7 @@ function App() {
   return (
     <div className="relative">
       <Header toggleModal={toggleModal}/>
-      {showModal ? <ModalMenu toggleModal={toggleModal}/> : false}
+      <ModalMenu toggleModal={toggleModal} showModal={showModal}/>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/services" element={<ServicesPage />}/>
