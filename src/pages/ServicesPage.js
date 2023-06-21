@@ -1,3 +1,5 @@
+import VOSection from "../components/VOSection";
+
 function ServicesPage() {
     return (
         <main>
@@ -14,6 +16,7 @@ function ServicesPage() {
                     <button className="border-light-blue border-[1px] hover:border-light-pink w-[30%] h-[5rem]">SOUND DESIGN & VIDEO POST-PROD</button>
                 </section>
             </section>
+            <VOSection />
         </main>
     )
 }
