@@ -5,7 +5,7 @@ import Triangle from '../assets/images/black-arrow-down.png'
 
 function Services() {
     return (
-        <div className="bg-black w-[100%] pt-[1.5rem] tablet:p-[2rem]">
+        <div className="bg-black w-[100%] pt-[1.5rem] tablet:p-[2rem] tablet:pb-0">
             <div className='flex justify-between items-start px-[1.5rem] tablet:px-[2rem] pb-[.5rem] w-[100%] border-b-white border-b-[3px] border-solid'>
                 <div className='w-[30%] flex flex-col justify-start items-center'>
                     <img src={DubNTrans} className='w-[66%] h-[auto] mb-[1rem]' alt="Dubbing & Translation" />
@@ -25,7 +25,7 @@ function Services() {
                 <img src={Triangle} className='w-[30px] invert' alt="triangle" />
                 <img src={Triangle} className='w-[30px] invert' alt="triangle" />
             </div>
-            <div className='p-[1.5rem] tablet:p-[2rem] pt-[0.1rem]'>
+            <div className='p-[1.5rem] tablet:p-[2rem] pt-[0.1rem] tablet:pb-[0]'>
                 <div className='flex justify-between gap-[0.5rem]'>
                     <p className='w-[30%] text-center text-white'>Localize your audiovisual project  all around the world, translating it into multiple languages.</p>
                     <p className='w-[30%] text-center text-white'>State of the art equipment to ensure the best vocal quality to meet the requirements of your project. </p>
@@ -33,7 +33,7 @@ function Services() {
                 </div>
             </div>
             <div className='flex justify-center'>
-                <img src={Triangle} className='w-[5rem] h-[2rem] relative top-[20px] tablet:top-[70px] tablet:w-[7rem] tablet:h-[4rem]' alt='triangle'/>
+                <img src={Triangle} className='w-[5rem] h-[2rem] relative top-[20px] tablet:top-[40px] tablet:w-[7rem] tablet:h-[4rem]' alt='triangle'/>
             </div>
         </div >
     )

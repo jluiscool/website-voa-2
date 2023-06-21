@@ -32,7 +32,7 @@ function Carousel({
     }, [autoSlideInterval, autoSlide, nextSlide])
 
     return (
-        <div className="overflow-hidden relative tablet:max-h-[500px]">
+        <div className="overflow-hidden relative tablet:max-h-[500px] tablet:max-w-[920px] tablet:border-light-blue tablet:border-[3px] tablet:border-t-0">
             <div
                 className="flex transition-transform ease-out duration-1000"
                 style={{ transform: `translateX(-${currSlide * 100}%)` }}>

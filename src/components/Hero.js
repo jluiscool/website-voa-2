@@ -12,7 +12,7 @@ function Hero() {
     ]
 
     return (
-        <section className="w-[100%]">
+        <section className="w-[100%] bg-black flex justify-center items-center">
             <Carousel autoSlide={true}>
                 {
                     slides.map((slide, index) => {
