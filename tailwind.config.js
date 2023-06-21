@@ -9,7 +9,7 @@ module.exports = {
         'light-blue': '#5CC4ED',
         'dark-gray': '#443F3F',
         'sunbox' : '#EED208',
-        'purplebox' : '#952EBD',
+        'purplebox' : '#BD70DA',
       },
       dropShadow: {
         '3xl': '0 35px 35px rgba(0, 0, 0, 0.25)',

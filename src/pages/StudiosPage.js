@@ -43,39 +43,42 @@ function StudiosPage() {
     const newHeight = 70;
 
     return (
-        <main>
+        <main className="">
             <StudioRentals newHeight={newHeight} handleScroll={handleScrollToSection} />
-            <div className="bg-light-pink flex flex-col gap-y-[0.3rem] pt-[0.3rem]">
+            <div className="bg-light-blue flex-col gap-y-[0.3rem] pb-[1rem] pt-[0.25rem] ">
                 <div ref={sectionOneRef}>
-                    <div className="bg-[url('./assets/images/sunbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
+                    <div className="bg-[url('./assets/images/sunbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center relative">
+                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
                         <h2 className="font-bold text-black-pink text-[1.5rem] text-sunbox drop-shadow-title">SUNBOX</h2>
                     </div>
-                    <div>
-                        <img src={sunbox1} alt="sunbox room" />
-                        <img src={sunbox2} alt="sunbox room" />
-                        <img src={sunbox3} alt="sunbox room" />
+                    <div className="flex flex-col gap-y-[0.5rem] px-[1.5rem] pt-[1rem]">
+                        <img src={sunbox1} alt="sunbox room" className="border-[3px] border-light-pink" />
+                        <img src={sunbox2} alt="sunbox room" className="border-[3px] border-light-pink" />
+                        <img src={sunbox3} alt="sunbox room" className="border-[3px] border-light-pink" />
                     </div>
                 </div>
-                <div ref={sectionTwoRef}>
-                    <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
+                <div ref={sectionTwoRef} className="pt-[1rem]">
+                    <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center relative">
+                        <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
                         <h2 className="font-bold text-black-pink text-[1.5rem] text-light-blue drop-shadow-title">MOONBOX</h2>
                     </div>
-                    <div>
-                        <img src={moonbox1} alt="moonbox room" />
-                        <img src={moonbox2} alt="moonbox room" />
-                        <img src={moonbox3} alt="moonbox room" />
-                        <img src={moonbox4} alt="moonbox room" />
+                    <div className="flex flex-col gap-y-[0.5rem] px-[1.5rem] py-[1rem]">
+                        <img src={moonbox1} alt="moonbox room" className="border-[3px] border-light-pink" />
+                        <img src={moonbox2} alt="moonbox room" className="border-[3px] border-light-pink" />
+                        <img src={moonbox3} alt="moonbox room" className="border-[3px] border-light-pink" />
+                        <img src={moonbox4} alt="moonbox room" className="border-[3px] border-light-pink" />
                     </div>
                 </div>
                 <div ref={sectionThreeRef}>
-                    <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
-                        <h2 className="font-bold text-purplebox text-[1.5rem] drop-shadow-title-purplebox">PURPLEBOX</h2>
+                    <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center relative">
+                    <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
+                        <h2 className="font-bold text-purplebox text-[1.5rem] drop-shadow-title">PURPLEBOX</h2>
                     </div>
-                    <div>
-                        <img src={purplebox1} alt="purplebox room" />
-                        <img src={purplebox2} alt="purplebox room" />
-                        <img src={purplebox3} alt="purplebox room" />
-                        <img src={purplebox4} alt="purplebox room" />
+                    <div className="flex flex-col gap-y-[0.5rem] px-[1.5rem] py-[1rem]">
+                        <img src={purplebox1} alt="purplebox room" className="border-[3px] border-light-pink" />
+                        <img src={purplebox2} alt="purplebox room" className="border-[3px] border-light-pink" />
+                        <img src={purplebox3} alt="purplebox room" className="border-[3px] border-light-pink" />
+                        <img src={purplebox4} alt="purplebox room" className="border-[3px] border-light-pink" />
                     </div>
                 </div>
             </div>
