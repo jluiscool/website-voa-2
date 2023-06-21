@@ -9,9 +9,9 @@ function ServicesPage() {
                 <p>Featuring the best digital tools, VOA offers high quality services to adapted and localized all types of audiovisual formats and platforms.</p>
                 <p>Our team is driven by passion and creativity, they focus on making a big sound in an intimate setting.</p>
                 <section className="flex justify-between items-center text-[0.75rem] text-light-blue gap-x-[0.5rem]">
-                    <button className="border-light-blue border-[1px] hover:border-light-pink">DUBBING, VO & ADAPTATION</button>
-                    <button className="border-light-blue border-[1px] hover:border-light-pink">RECORDING, MIXING, & MASTERING</button>
-                    <button className="border-light-blue border-[1px] hover:border-light-pink">SOUND DESIGN & VIDEO POST-PROD</button>
+                    <button className="border-light-blue border-[1px] hover:border-light-pink w-[30%] h-[5rem]">DUBBING, VO & ADAPTATION</button>
+                    <button className="border-light-blue border-[1px] hover:border-light-pink w-[30%] h-[5rem]">RECORDING, MIXING, & MASTERING</button>
+                    <button className="border-light-blue border-[1px] hover:border-light-pink w-[30%] h-[5rem]">SOUND DESIGN & VIDEO POST-PROD</button>
                 </section>
             </section>
         </main>

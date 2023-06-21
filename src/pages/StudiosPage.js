@@ -48,7 +48,7 @@ function StudiosPage() {
             <div className="bg-light-pink flex flex-col gap-y-[0.3rem] pt-[0.3rem]">
                 <div ref={sectionOneRef}>
                     <div className="bg-[url('./assets/images/sunbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
-                        <h2 className="font-bold text-black-pink text-[1.5rem]">SUNBOX</h2>
+                        <h2 className="font-bold text-black-pink text-[1.5rem] text-sunbox drop-shadow-title">SUNBOX</h2>
                     </div>
                     <div>
                         <img src={sunbox1} alt="sunbox room" />
@@ -58,7 +58,7 @@ function StudiosPage() {
                 </div>
                 <div ref={sectionTwoRef}>
                     <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
-                        <h2 className="font-bold text-black-pink text-[1.5rem]">MOONBOX</h2>
+                        <h2 className="font-bold text-black-pink text-[1.5rem] text-light-blue drop-shadow-title">MOONBOX</h2>
                     </div>
                     <div>
                         <img src={moonbox1} alt="moonbox room" />
@@ -69,7 +69,7 @@ function StudiosPage() {
                 </div>
                 <div ref={sectionThreeRef}>
                     <div className="bg-[url('./assets/images/moonbox-bg.jpg')] bg-cover h-[20vw] flex justify-center items-center">
-                        <h2 className="font-bold text-black-pink text-[1.5rem]">PURPLEBOX</h2>
+                        <h2 className="font-bold text-purplebox text-[1.5rem] drop-shadow-title-purplebox">PURPLEBOX</h2>
                     </div>
                     <div>
                         <img src={purplebox1} alt="purplebox room" />
