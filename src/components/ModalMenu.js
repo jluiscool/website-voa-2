@@ -11,6 +11,7 @@ function ModalMenu({ toggleModal, showModal }) {
     return ReactDom.createPortal(
         <div className={`fixed top-0 left-[100%] w-full h-full bg-black bg-opacity-70 z-50 transition-transform ease-out duration-1000 backdrop-blur-[0.25rem]`}
             style={{ transform: `${showModal ? `translateX(-${100}%)` : ``}` }}
+            
         >
             <div className="fixed top-0 left-[100%] w-full h-full flex justify-center items-center z-50 transition-transform ease-out duration-1000"
                 style={{ transform: `${showModal ? `translateX(-${100}%)` : ``}` }}
@@ -43,7 +44,7 @@ function ModalMenu({ toggleModal, showModal }) {
                             <li className="hover:text-light-blue">CONTACT US</li>
                         </Link>
                     </ul>
-                    <div className="flex items-center justify-center gap-2 mt-6">
+                    <div className="flex items-center justify-center gap-2 mt-8">
                         <a href="https://www.linkedin.com/company/voa-studios-miami/" target="_blank" rel="noopener noreferrer">
                             <img src={LinkedinLogo} alt="linkedin logo" className="w-6 invert" />
                         </a>
