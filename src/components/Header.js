@@ -23,17 +23,17 @@ function Header({ toggleModal }) {
 
     return (
         <div>
-            <header className='bg-hot-pink flex justify-between items-center w-full h-[20vw] max-h-[125px] p-6 fixed top-0 z-50 tablet:p-[2rem] tablet:justify-start tablet:gap-x-[1rem]'>
+            <header className='bg-hot-pink flex justify-between items-center w-full h-[20vw] max-h-[125px] p-6 fixed top-0 z-50 tablet:p-[2rem] tablet:justify-start'>
                 <Link to="/">
-                    <img src={Logo} alt="voa logo" className="h-[15vw] max-h-[4rem]" />
+                    <img src={Logo} alt="voa logo" className="h-[15vw] max-h-[4rem] tablet:w-[6rem]" />
                 </Link>
-                <nav className='hidden text-white tablet:flex justify-start items-center h-[4rem] gap-x-[1rem]'>
+                <nav className='hidden text-white tablet:flex justify-start items-center h-[4rem] gap-x-[1rem] mx-auto'>
                     <Link to="/"
                         className={`h-[100%] px-[1rem] flex justify-center items-center hover:underline ${isPageActive('/')}`}
                         onClick={() => handlePageChange('/')}
                     >
                         <button className=''>
-                            <p>HOME</p>
+                            <p className='tablet:text-[1rem]'>HOME</p>
                         </button>
                     </Link>
                     <Link to="/services"
@@ -41,7 +41,7 @@ function Header({ toggleModal }) {
                         onClick={() => handlePageChange('/services')}
                     >
                         <button>
-                            <p>SERVICES</p>
+                            <p className='tablet:text-[1rem]'>SERVICES</p>
                         </button>
                     </Link>
                     <Link to="/studios"
@@ -49,7 +49,7 @@ function Header({ toggleModal }) {
                         onClick={() => handlePageChange('/studios')}
                     >
                         <button>
-                            <p>STUDIOS</p>
+                            <p className='tablet:text-[1rem]'>STUDIOS</p>
                         </button>
                     </Link>
                     <Link to="/the-team"
@@ -57,7 +57,7 @@ function Header({ toggleModal }) {
                         onClick={() => handlePageChange('/the-team')}
                     >
                         <button>
-                            <p>THE TEAM</p>
+                            <p className='tablet:text-[1rem]'>THE TEAM</p>
                         </button>
                     </Link>
                     <Link to="/clients"
@@ -65,7 +65,7 @@ function Header({ toggleModal }) {
                         onClick={() => handlePageChange('/clients')}
                     >
                         <button>
-                            <p>CLIENTS</p>
+                            <p className='tablet:text-[1rem]'>CLIENTS</p>
                         </button>
                     </Link>
                     <Link to="/contact-us"
@@ -73,7 +73,7 @@ function Header({ toggleModal }) {
                         onClick={() => handlePageChange('/contact-us')}
                     >
                         <button>
-                            <p>CONTACT US</p>
+                            <p className='tablet:text-[1rem]'>CONTACT US</p>
                         </button>
                     </Link>
                 </nav>
