@@ -2,7 +2,7 @@ import GoogleMapsFrame from './GoogleMapsFrame';
 
 function LocationSection() {
     return (
-        <div className='w-[100%] flex-col items-start p-[1.5rem] bg-black text-white tablet:p-[2rem] tablet:flex tablet:flex-wrap tablet:flex-col tablet:gap-x-[2rem] tablet:h-[275px] desktop:px-[9vw]'>
+        <div className='w-[100%] flex-col items-start p-[1.5rem] bg-black text-white tablet:p-[2rem] tablet:flex tablet:flex-wrap tablet:flex-col tablet:gap-x-[2rem] tablet:h-[275px] desktop:px-[9vw] '>
             <div className='flex flex-col justify-center items-start gap-x-[1rem] tablet:w-[45%] tablet:mb-0 tablet:order-1'>
                 <div className='w-[100%] justify-center text-center text-[1.25rem] pb-[1rem]'>
                     <div className='pb-[0.75rem]'>
