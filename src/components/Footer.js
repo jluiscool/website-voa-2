@@ -6,10 +6,10 @@ import InstagramLogo from '../assets/images/instagram-logo.png'
 
 function Footer() {
     return (
-        <div className='w-[100%] bg-hot-pink flex flex-col items-between p-[1.5rem] gap-y-[1rem] text-white'>
-            <div className='  flex justify-between'>
+        <div className='w-[100%] bg-hot-pink flex flex-col items-between p-[1.5rem] gap-y-[1rem] text-white tablet:p-[2rem]'>
+            <div className='flex justify-between'>
                 <p className='font-[500]'>VOA Studios Miami</p>
-                <div>
+                <div className='tablet:flex tablet:flex-col tablet:items-end'>
                     <a href="mailto:info@voamiami.com">info@voamiami.com</a>
                     <p>Tel: <a href="tel:+17865275099">1-786-527-5099</a></p>
                 </div>
