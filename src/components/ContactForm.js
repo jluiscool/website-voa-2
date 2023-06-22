@@ -1,13 +1,13 @@
 import React from 'react';
 import { useForm, ValidationError } from '@formspree/react';
 
-function ContactForm() {
+function ContactForm({ isInHomePage = false }) {
     const [state, handleSubmit] = useForm("mayzrpjk");
     if (state.succeeded) {
         return <p>Thanks for your submission! We'll get back to you shortly.</p>;
     }
     return (
-        <form onSubmit={handleSubmit} className='w-[100%] flex flex-col items-start justify-start gap-y-[0.75rem]'>
+        <form onSubmit={handleSubmit} className={`w-[100%] flex flex-col items-start justify-start gap-y-[0.75rem] ${isInHomePage ? "tablet:w-[45%]" : ""}`}>
             <div className='w-[100%]'>
                 <input
                     id="email"

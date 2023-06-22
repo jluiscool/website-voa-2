@@ -10,9 +10,9 @@ function TeamMemberCard({ name, email, phone, title, twitter, linkedin, facebook
     };
 
     return (
-        <div id={name} className="bg-dark-gray/[0.8] w-[100%] flex flex-col rounded-[3px] items-start text-white hover:bg-light-blue hover:text-black">
-            <img src={picture} className='rounded-full mx-auto my-[0.75rem] w-[55vw] h-[55vw]' alt={name} />
-            <div className='flex flex-wrap gap-y-[0.5rem]  justify-between px-[0.75rem] text-[0.75rem] text-center'>
+        <div id={name} className="bg-dark-gray/[0.8] w-[100%] flex flex-col rounded-[6px] items-start text-white hover:bg-light-blue hover:text-black tablet:w-[45%]">
+            <img src={picture} className='rounded-full mx-auto my-[1rem] w-[60%] h-[60%]' alt={name} />
+            <div className={`flex flex-wrap gap-y-[0.5rem]  justify-between px-[0.75rem] text-[0.75rem] text-center w-[100%]`}>
                 <div className='flex justify-between w-[100%] flex-col'>
                     <h3 className='text-[1rem]'>{title}</h3>
                     <h3 className='text-[1rem]'>{name}</h3>
@@ -29,7 +29,7 @@ function TeamMemberCard({ name, email, phone, title, twitter, linkedin, facebook
                         <p>{description}</p>
                     </div> : ""
                 }
-                <div className='flex justify-center w-[100%] gap-x-[1rem] items-center pb-[0.75rem]'>
+                <div className='flex justify-center w-[100%] gap-x-[1rem] items-center pb-[1rem]'>
                     {
                         description ? "" :
                             <Link to={`/the-team`} onClick={handleLinkClick}>
