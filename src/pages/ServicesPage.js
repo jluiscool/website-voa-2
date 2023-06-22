@@ -4,7 +4,7 @@ function ServicesPage() {
     return (
         <main>
             <section className='bg-[url("./assets/images/services-page-bg.jpg")] bg-cover h-[9rem] flex justify-center items-center'>
-                <h1 className="text-white font-bold text-[2rem]">SERVICES</h1>
+                <h1 className="text-white font-bold">SERVICES</h1>
             </section>
             <section className="bg-black text-white flex flex-col p-[1.5rem] gap-y-[1rem] tablet:p-[2rem] text-center">
                 <p>VOA STUDIOS MIAMI is a professional recording studio located in the hearth of Miami, FL.</p>
