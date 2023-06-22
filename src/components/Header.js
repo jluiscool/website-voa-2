@@ -5,7 +5,7 @@ import FacebookLogo from '../assets/images/facebook-logo-round.png';
 import LinkedinLogo from '../assets/images/linkedin-logo.png';
 import YoutubeLogo from '../assets/images/youtube-logo.png';
 import InstagramLogo from '../assets/images/instagram-logo.png';
-import { Link, useLocation, useParams } from 'react-router-dom';
+import { Link, useParams } from 'react-router-dom';
 import { useState } from 'react';
 
 function Header({ toggleModal }) {
