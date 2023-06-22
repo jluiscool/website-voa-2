@@ -10,7 +10,7 @@ import VideoPostService from '../assets/images/video-post-service.svg';
 
 function ServicesOffered() {
     return (
-        <div className='bg-hot-pink w-[100%] flex flex-wrap justify-between p-[24px] tablet:p-[2rem] tablet:py-[3rem] gap-x-[16px] gap-y-[4.5vw]'>
+        <div className='bg-hot-pink w-[100%] flex flex-wrap justify-between p-[24px] tablet:p-[2rem] tablet:py-[3rem] gap-x-[16px] gap-y-[4.5vw] desktop:px-[9vw]'>
             <div className='w-[29%] h-[3rem] tablet:h-[auto] tablet:justify-between flex flex-col items-center justify-between gap-y-[0.5rem]'>
                 <img src={TranslationService} className='h-[5vw]' alt="Translation Service" />
                 <button className='w-[90%] m-w-[9.375rem] bg-transparent border-black border-[1px] rounded-[12px] py-[.25rem] translation-service'>

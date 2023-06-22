@@ -23,7 +23,7 @@ function Header({ toggleModal }) {
 
     return (
         <div>
-            <header className='bg-hot-pink flex justify-between items-center w-full h-[20vw] max-h-[125px] p-6 fixed top-0 z-50 tablet:p-[2rem] tablet:justify-start'>
+            <header className='bg-hot-pink flex justify-between items-center w-full h-[20vw] max-h-[125px] p-6 fixed top-0 z-50 tablet:p-[2rem] tablet:justify-start desktop:px-[9vw]'>
                 <Link to="/">
                     <img src={Logo} alt="voa logo" className="h-[15vw] max-h-[4rem] tablet:w-[6rem]" />
                 </Link>

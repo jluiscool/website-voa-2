@@ -5,7 +5,7 @@ import Triangle from '../assets/images/black-arrow-down.png'
 
 function Services() {
     return (
-        <div className="bg-black w-[100%] pt-[1.5rem] tablet:p-[2rem] tablet:pb-0">
+        <div className="bg-black w-[100%] pt-[1.5rem] tablet:p-[2rem] tablet:pb-0 desktop:px-[9vw] desktop:pt-[4rem]">
             <div className='flex justify-between items-start px-[1.5rem] tablet:px-[2rem] pb-[.5rem] w-[100%] border-b-white border-b-[3px] border-solid'>
                 <div className='w-[30%] flex flex-col justify-start items-center'>
                     <img src={DubNTrans} className='w-[66%] h-[auto] mb-[1rem]' alt="Dubbing & Translation" />

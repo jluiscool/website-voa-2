@@ -9,8 +9,8 @@ function StudioRentals({ newHeight, handleScroll }) {
     }
 
     return (
-        <div className={`bg-[url("./assets/images/microphone-studio-rentals.jpg")] bg-cover bg-no-repeat w-[100%] flex flex-col items-start p-[1.5rem] tablet:p-[2rem] ${newHeight ? `h-[${newHeight}vh] justify-center` : "h-[35vw]"} max-h-[150px] tablet:max-h-[200px]`}>
-            <h2 className='text-light-blue mb-[6.5vw] font-[700] bg-black/[0.5] rounded-[12px] px-[0.5rem] mx-auto'>
+        <div className={`bg-[url("./assets/images/microphone-studio-rentals.jpg")] bg-cover bg-no-repeat w-[100%] flex flex-col items-start p-[1.5rem] tablet:p-[2rem] desktop:px-[9vw] ${newHeight ? `h-[${newHeight}vh] justify-center` : "h-[35vw]"} max-h-[150px] tablet:max-h-[200px] desktop:max-h-[300px]`}>
+            <h2 className='text-light-blue mb-[6.5vw] font-[700] bg-black/[0.5] rounded-[12px] px-[0.5rem] mx-auto tablet:px-[2rem]'>
                 RENTALS
             </h2>
             <div className='flex justify-between w-[100%]'>

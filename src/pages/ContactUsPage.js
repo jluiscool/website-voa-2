@@ -11,8 +11,8 @@ function ContactUsPage() {
             <div className='bg-[url("./assets/images/contact-us-bg.webp")] p-[1.5rem] text-center font-bold text-white'>
                 <h1 className="">CONTACT US</h1>
             </div>
-            <div className="tablet:flex tablet:flex-row tablet:flex-wrap bg-black tablet:justify-between tablet:py-[2rem] tablet:gap-[2rem]">
-                <div className="text-white bg-black px-[1.5rem] flex flex-col gap-y-[0.5rem] pt-[1rem] tablet:w-[45%] tablet:p-0 tablet:pl-[2rem] tablet:flex-grow-[1]">
+            <div className="tablet:flex tablet:flex-row tablet:flex-wrap bg-black tablet:justify-between tablet:py-[2rem] tablet:gap-[2rem] desktop:px-[9vw]">
+                <div className="text-white bg-black px-[1.5rem] flex flex-col gap-y-[0.5rem] pt-[1rem] tablet:w-[45%] tablet:p-0 tablet:pl-[2rem] tablet:flex-grow-[1] desktop:pl-0">
                     <h3>
                         Are you a voice actor? </h3>
                     <h3>
@@ -28,10 +28,10 @@ function ContactUsPage() {
                         SEND US A MESSAGE!!
                     </h3>
                 </div>
-                <div className="bg-black px-[1.5rem] py-[1.5rem] tablet:p-0 tablet:w-[45%] tablet:pr-[2rem] tablet:flex-grow-[2] tablet:h-full">
+                <div className="bg-black px-[1.5rem] py-[1.5rem] tablet:p-0 tablet:w-[45%] tablet:pr-[2rem] tablet:flex-grow-[2] tablet:h-full desktop:pr-0">
                     <ContactForm />
                 </div>
-                <div className="bg-black px-[1.5rem] flex flex-col gap-y-[1rem] pb-[1.5rem] tablet:p-0 tablet:pl-[2rem] tablet:flex-grow-[1] tablet:text-center">
+                <div className="bg-black px-[1.5rem] flex flex-col gap-y-[1rem] pb-[1.5rem] tablet:p-0 tablet:pl-[0] tablet:flex-grow-[1] tablet:text-center">
                     <div>
                         <p className="text-hot-pink">Phone</p>
                         <a href="tel:+17865275099" className="text-white">1-786-527-5099</a>

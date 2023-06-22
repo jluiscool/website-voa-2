@@ -1,7 +1,7 @@
 function VOSection() {
     return (
         <section className="bg-black">
-            <div className='bg-[url("./assets/images/vo-section-bg.webp")] p-[1.5rem] tablet:p-[2rem]'>
+            <div className='bg-[url("./assets/images/vo-section-bg.webp")] p-[1.5rem] tablet:p-[2rem] desktop:px-[9vw]'>
                 <div className="text-center relative">
                     <div className="absolute top-0 left-0 w-full h-full bg-black opacity-50"></div>
                     <h1 className="text-white relative pb-[1rem]">DUBBING & VOICE OVER</h1>
@@ -17,7 +17,7 @@ function VOSection() {
                 <h3>Editing, mixing, and mastering</h3>
                 <h3>Music & Effects recreation</h3>
             </div>
-            <div className="p-[1.5rem] tablet:p-[2rem] desktop:flex desktop:gap-y-[2rem] desktop:justify-between">
+            <div className="p-[1.5rem] tablet:p-[2rem] desktop:flex desktop:gap-y-[2rem] desktop:justify-between desktop:px-[9vw]">
                 <iframe
                     className="w-[100%] h-[45vw] desktop:w-[47%]"
                     src="https://www.youtube.com/embed/Zk6gr0Un1vs"
